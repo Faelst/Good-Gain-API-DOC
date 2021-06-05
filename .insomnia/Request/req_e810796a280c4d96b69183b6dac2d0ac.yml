@@ -1,0 +1,31 @@
+_id: req_e810796a280c4d96b69183b6dac2d0ac
+type: Request
+parentId: fld_950d53e1aecf4863a54bf6aa49816d17
+modified: 1622857587680
+created: 1622857526104
+url: http://localhost:8000/api/adminMatchs/setPlayerSingleMatchWinner
+name: setPlayerSingleMatchWinner
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"singleMatchId": 1,
+    	"playerWinnerId": 1,
+    	"notes": "teste teste 12345"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_106282d37a464c84b27a8a8a66a6b278
+authentication: {}
+metaSortKey: -1622857085985
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

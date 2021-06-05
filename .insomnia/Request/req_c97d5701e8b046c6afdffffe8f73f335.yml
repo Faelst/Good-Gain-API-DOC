@@ -1,0 +1,45 @@
+_id: req_c97d5701e8b046c6afdffffe8f73f335
+type: Request
+parentId: fld_950d53e1aecf4863a54bf6aa49816d17
+modified: 1622857438790
+created: 1622857085934
+url: http://localhost:8000/api/singleMatch/match/openingDisputeSingleMatchWinner
+name: openingDisputeSingleMatchWinner
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: singleMatchImg
+      value: ""
+      description: ""
+      id: pair_59f100b07f3141bcbe5eb84cc6c99b2b
+      type: file
+      multiline: null
+      fileName: /home/kaffa/Imagens/maxresdefault.jpg
+    - name: playerId
+      value: "2"
+      description: ""
+      id: pair_528464314b8b442fb9b3769f1e106a38
+    - name: singleMatchId
+      value: "1"
+      description: ""
+      id: pair_cbc56d722c6f44a88add4c9742e8aafc
+    - name: beMatchWinner
+      value: "false"
+      description: ""
+      id: pair_2b28a3735aed48209b06123efc824ffb
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_30ecb3a67ac74b488e07a8de9198a393
+authentication: {}
+metaSortKey: -1622857085935
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

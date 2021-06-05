@@ -1,0 +1,49 @@
+_id: req_a9d4d1e4ad23477385faadcc8aaf9982
+type: Request
+parentId: fld_04bbd82f9b9c4e8c88ee997058ff5668
+modified: 1622408503344
+created: 1622397989282
+url: http://localhost:8000/api/support/openServiceProtocol
+name: openServiceProtocol
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: file
+      value: ""
+      description: ""
+      id: pair_cd6439dba2b44bb38fb8dbd7b9166c8a
+      type: file
+      fileName: /home/kaffa/Imagens/maxresdefault.jpg
+      disabled: false
+    - name: subject
+      value: Resultado Incorreto
+      description: ""
+      id: pair_c899eb62398b410ba014130cbdd43f67
+    - name: typesServiceProtocolId
+      value: "2"
+      description: ""
+      id: pair_371411b758e241e3a4d4297c757b4e07
+    - name: textDescription
+      value: enviando foto teste para verificar se esta funcionando
+      description: ""
+      id: pair_bf37a5501cad4a11bb991f83f7a10339
+    - name: playerId
+      value: "1"
+      description: ""
+      id: pair_058f0ca534024b7ea2d79dfbc28430f8
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_1e994f401f724818816a44ba1a510e70
+authentication: {}
+metaSortKey: -1622397989282
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
